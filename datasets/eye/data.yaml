@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['awake', 'drowsy', 'mobile', 'seatbelt']
+
+roboflow:
+  workspace: trash-ibbxk
+  project: test-bkfva
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trash-ibbxk/test-bkfva/dataset/4
